@@ -1,0 +1,11 @@
+.text {
+	@apply text-lg text-sky-600;
+}
+
+.token-code {
+	@apply p-4 font-mono text-black bg-gray-200;
+}
+
+.container {
+	@apply flex flex-col items-stretch gap-4;
+}

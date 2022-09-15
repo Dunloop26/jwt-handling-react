@@ -1,0 +1,30 @@
+.input-container {
+	@apply flex flex-col;
+}
+
+.base-label {
+	@apply text-lg font-bold transition-transform;
+}
+
+.base-input {
+	@apply p-2 py-1 border-transparent border-2 focus:outline-none;
+}
+
+.label {
+	@apply base-label text-sky-500 translate-x-4;
+}
+
+.label-active {
+	@apply base-label text-purple-500 translate-x-6;
+}
+
+.input {
+	@apply base-input;
+	@apply border-b-2 border-b-sky-200;
+}
+
+.input-active {
+	@apply base-input;
+	@apply border-2 border-purple-400;
+
+}

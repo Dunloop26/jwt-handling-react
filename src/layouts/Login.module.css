@@ -1,0 +1,7 @@
+.login-container {
+	@apply !pt-20 !pb-24 gap-8;
+}
+
+.input-group {
+	@apply w-full flex flex-col gap-4;
+}

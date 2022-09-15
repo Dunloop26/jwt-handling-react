@@ -1,0 +1,11 @@
+.container {
+	@apply p-4 bg-sky-100 rounded-md;
+}
+
+.date {
+	@apply text-sm font-bold text-sky-600 mb-2;
+}
+
+.message {
+	@apply text-sky-900;
+}
